@@ -1,0 +1,157 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.header{
+    padding:20px 50px;
+}
+.icon{
+      float:left;
+      width:70px;
+      padding: 14px 16px;
+}
+  
+  .navbar {
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 20px;
+    color:black;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: black;
+    color:white;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .sketch{
+    display: flex;
+    justify-content: center;
+    padding:5%;
+}
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size:18px;
+}
+h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    color:#1D725B;
+    font-size:30px;
+}
+.small{
+    max-width: 40%;
+}
+h3{
+    color:#1D725B;
+}
+
+.sketch img{
+    width:60%;
+}
+
+img{
+    width:100%;
+
+}
+.personas{
+    display: flex;
+    justify-content: center;
+}
+.interview{
+    display:flex;
+    justify-content: center;
+
+}
+@media screen and (max-width:1000px){
+    .interview{
+        flex-direction: column;
+    }
+    .personas{
+        flex-direction: column;
+    }
+}
+.list{
+    border-style: solid;
+    border-color: #1D725B;
+    background-color: #fadce5;
+    margin:30px;
+    padding:10px;
+}
+
+h1{
+    font-size:50px;
+    padding-top:50px;
+    padding-left:50px;
+    color:#1D725B;
+    padding-bottom:0px;
+}
+
+.he{
+    width:100%;
+    padding-top:10px;
+    padding-bottom: 10px;
+    top:0;
+    overflow: hidden;
+    border-bottom: solid;
+    border-color:#1D725B;
+}
+.p-he{
+    padding-left:32px;
+}
+.conclusion{
+    border-style: solid;
+    border-color: #1D725B;
+    background-color: #fadce5;
+    margin-left:30px;
+    margin-right:30px;
+    padding:10px;
+}
